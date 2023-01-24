@@ -1,9 +1,6 @@
 * {
 	font-family: "Poppins", sans-serif;
 }
-.body {
-	max-width: 1170px;
-}
 .btn-light,
 .btn-light:hover,
 .btn-light:active,
@@ -28,7 +25,4 @@
 	font-weight: 800;
 	font-size: 72px;
 	font-family: "EB Garamond", serif;
-}
-.header-content {
-	max-width: 692px;
 }
