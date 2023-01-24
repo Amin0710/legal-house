@@ -1,3 +1,6 @@
+* {
+	font-family: "Poppins", sans-serif;
+}
 .body {
 	max-width: 1170px;
 }
@@ -6,8 +9,26 @@
 .btn-light:active,
 .btn-light:visited {
 	background-color: #b68c5a !important;
+	font-weight: 600;
 }
 .next {
 	width: 14px;
 	height: 14px;
+}
+.header-img {
+	height: 550px;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(255, 253, 253, 0) 40%,
+			rgba(0, 0, 0, 1) 100%
+		),
+		url("./images/banner.png");
+}
+.header-img h1 {
+	font-weight: 800;
+	font-size: 72px;
+	font-family: "EB Garamond", serif;
+}
+.header-content {
+	max-width: 692px;
 }
