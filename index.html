@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+	<!-- -----------------
+			HEAD
+   	------------------ -->
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Justice</title>
+		<title>Justice with LAW</title>
+		<!-- BS CSS -->
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
 			crossorigin="anonymous"
 		/>
+		<!-- Font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/e0a42824a3.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- Vanilla CSS -->
 		<link rel="stylesheet" href="styles.css" />
 	</head>
+
+	<!-- -----------------
+			BODY
+   	------------------ -->
 	<body class="body mx-auto mt-3" style="max-width: 1170px">
 		<header class="mb-5">
+			<!-- -----------------
+				  Header Nav
+   			------------------ -->
 			<nav class="d-flex justify-content-between mb-5">
 				<img src="images/logo2.png" style="height: 46px" alt="" />
 				<div class="d-flex gap-2 pt-3">
 					<p class="text-muted pe-5">Home</p>
-					<p class="text-muted">Services</p>
-					<div class="pe-5">
-						<img class="next align-items-center" src="images/next.png" alt="" />
-					</div>
-					<p class="text-muted">Cases</p>
-					<div class="pe-5">
-						<img class="next align-items-center" src="images/next.png" alt="" />
-					</div>
-					<p class="text-muted">Blog</p>
-					<div class="pe-5">
-						<img class="next align-items-center" src="images/next.png" alt="" />
-					</div>
-					<p class="text-muted">Contact Us</p>
-					<div class="pe-5">
-						<img class="next align-items-center" src="images/next.png" alt="" />
-					</div>
+					<p class="text-muted pe-5">
+						Services <i class="fa-solid fa-chevron-right text-muted"></i>
+					</p>
+					<p class="text-muted pe-5">
+						Cases <i class="fa-solid fa-chevron-right text-muted"></i>
+					</p>
+					<p class="text-muted pe-5">
+						Blog <i class="fa-solid fa-chevron-right text-muted"></i>
+					</p>
+					<p class="text-muted pe-5">
+						Contact Us <i class="fa-solid fa-chevron-right text-muted"></i>
+					</p>
 				</div>
 				<button type="button" class="btn btn-light px-4 py-1 text-white">
 					Free Consultation
 				</button>
 			</nav>
+			<!-- -----------------
+				  Header Banner
+   			------------------ -->
 			<div
-				class="header-img mt-1 d-flex align-items-center justify-content-center"
+				class="header-img mt-1 d-flex align-items-center rounded justify-content-center"
 			>
 				<div class="text-white w-75 text-center" style="max-width: 692px">
 					<h1 class="garamond-800" style="font-size: 72px">
@@ -68,6 +84,9 @@
 			</div>
 		</header>
 		<main>
+			<!-- -----------------
+				Main Section 1
+   			------------------ -->
 			<section class="py-5">
 				<p class="text-center garamond-800 text-muted">
 					The Legal Practice Area
@@ -79,6 +98,7 @@
 				</p>
 				<div class="container d-flex">
 					<div class="row row-cols-3">
+						<!-- Card 1 -->
 						<div
 							class="card col-lg-4 border-0 rounded-0 border-bottom"
 							style="height: 401px"
@@ -108,6 +128,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Card 2 -->
 						<div
 							class="card col-lg-4 rounded-0 card-gradient"
 							style="height: 401px"
@@ -137,6 +158,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Card 3 -->
 						<div
 							class="card col-lg-4 border-0 rounded-0 border-bottom"
 							style="height: 401px"
@@ -168,6 +190,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Card 4 -->
 						<div
 							class="card col-lg-4 border-0 rounded-0 border-end"
 							style="height: 401px"
@@ -199,6 +222,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Card 5 -->
 						<div
 							class="card col-lg-4 rounded-0 border-0 border-end"
 							style="height: 401px"
@@ -228,6 +252,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Card 6 -->
 						<div class="card col-lg-4 border-0" style="height: 401px">
 							<div class="d-flex justify-content-center mt-5 mb-1">
 								<img
@@ -253,6 +278,59 @@
 									/>
 								</div>
 							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- -----------------
+				Main Section 2
+   			------------------ -->
+			<section class="py-5">
+				<p class="text-center garamond-800 text-muted">What Our Client Say</p>
+				<p class="text-center text-body-secondary px-5 mx-5 mb-5">
+					Don't just take our word for it: Our satisfied clients speak for
+					themselves. Read their testimonials to see how we've helped them
+					navigate the legal system.
+				</p>
+				<!-- body img -->
+				<div
+					class="body-img mt-1 d-flex align-items-center justify-content-center rounded text-white"
+				>
+					<!-- slide nav -->
+					<div
+						class="d-flex w-100 justify-content-between position-absolute"
+						style="max-width: 1170px"
+					>
+						<i
+							class="fa-solid fa-chevron-right text-white pe-5"
+							style="transform: scaleX(-1)"
+						></i>
+						<i class="fa-solid fa-chevron-right text-white pe-5"></i>
+					</div>
+					<!-- content -->
+					<div class="d-flex flex-column text-center" style="max-width: 900px">
+						<div>
+							<img
+								src="images/person.png"
+								class="border border-3 border-white rounded-circle"
+								style="width: 70px; height: 70px"
+								alt=""
+							/>
+						</div>
+						<div>
+							<p class="garamond-800">Awlad Hossain</p>
+							<p class="py-0">UIX Designer</p>
+							<p>
+								I highly recommend this law firm. The attorneys were
+								professional, knowledgeable, and truly cared about my case. They
+								were able to achieve the outcome I was hoping for and I couldn't
+								be happier with the service I received.
+							</p>
+						</div>
+						<div class="d-flex justify-content-center gap-3">
+							<i class="fa-solid fa-minus text-white-50"></i>
+							<i class="fa-solid fa-minus text-white"></i>
+							<i class="fa-solid fa-minus text-white-50"></i>
 						</div>
 					</div>
 				</div>
