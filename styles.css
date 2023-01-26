@@ -8,6 +8,7 @@
 	background-color: #b68c5a !important;
 	font-weight: 600;
 }
+
 .header-img {
 	height: 550px;
 	background-image: linear-gradient(
@@ -52,4 +53,14 @@
 }
 .accordion-button:not(.collapsed)::after {
 	background: url("images/minus-solid.svg");
+}
+
+@media (max-width: 768px) {
+	.title-h1 {
+		font-size: 45px !important;
+	}
+	.card {
+		border-radius: 0;
+		border: 1px solid #b68c5a !important;
+	}
 }
