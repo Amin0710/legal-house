@@ -39,3 +39,16 @@
 	left: 0%;
 	top: 0%;
 }
+.accordion-body,
+.accordion-button,
+.accordion-button:not(.collapsed) {
+	color: black;
+	background-color: #f3f3f3;
+}
+
+.accordion-button.collapsed::after {
+	background-image: url("images/plus-solid.svg");
+}
+.accordion-button:not(.collapsed)::after {
+	background: url("images/minus-solid.svg");
+}
